@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Adhitya-Sundar---About-Me/home/static/css/main.cdd53e4c.css",
-    "main.js": "/Adhitya-Sundar---About-Me/home/static/js/main.e56e0eef.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Adhitya-Sundar---About-Me/home/static/js/787.1ed0c42c.chunk.js",
-    "static/media/lukas-blazek-EWDvHNNfUmQ-unsplash.jpg": "/Adhitya-Sundar---About-Me/home/static/media/lukas-blazek-EWDvHNNfUmQ-unsplash.d395ca213a09839da66d.jpg",
-    "static/media/A.I_Hand.jpg": "/Adhitya-Sundar---About-Me/home/static/media/A.I_Hand.04f65620805223b2bdf3.jpg",
-    "static/media/Tab-2-Ph-2.jpg": "/Adhitya-Sundar---About-Me/home/static/media/Tab-2-Ph-2.edef9a9c79205d3b38b7.jpg",
-    "static/media/Tree_in_night.jpg": "/Adhitya-Sundar---About-Me/home/static/media/Tree_in_night.622e15e9f0b5ab813c06.jpg",
-    "static/media/yuriy-kovalev-nN1HSDtKdlw-unsplash.jpg": "/Adhitya-Sundar---About-Me/home/static/media/yuriy-kovalev-nN1HSDtKdlw-unsplash.0acaa83768131db939a2.jpg",
-    "static/media/diego-ph-5LOhydOtTKU-unsplash.jpg": "/Adhitya-Sundar---About-Me/home/static/media/diego-ph-5LOhydOtTKU-unsplash.a0b6829047851d5eeddc.jpg",
-    "static/media/Tab-2-Ph-3.jpg": "/Adhitya-Sundar---About-Me/home/static/media/Tab-2-Ph-3.44f64c067a75e6257421.jpg",
-    "static/media/Udavam_Karangal.jpg": "/Adhitya-Sundar---About-Me/home/static/media/Udavam_Karangal.62735e18bf25e3dfe27a.jpg",
-    "static/media/Tab-2-Ph-4.jpg": "/Adhitya-Sundar---About-Me/home/static/media/Tab-2-Ph-4.78686aa3ea1a9e5d6a83.jpg",
-    "static/media/logo.svg": "/Adhitya-Sundar---About-Me/home/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/Adhitya-Sundar---About-Me/home/index.html",
-    "main.cdd53e4c.css.map": "/Adhitya-Sundar---About-Me/home/static/css/main.cdd53e4c.css.map",
-    "main.e56e0eef.js.map": "/Adhitya-Sundar---About-Me/home/static/js/main.e56e0eef.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Adhitya-Sundar---About-Me/home/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/Adhitya-Sundar---About-Me/static/css/main.0224b40f.css",
+    "main.js": "/Adhitya-Sundar---About-Me/static/js/main.21e5c69f.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Adhitya-Sundar---About-Me/static/js/787.1ed0c42c.chunk.js",
+    "static/media/lukas-blazek-EWDvHNNfUmQ-unsplash.jpg": "/Adhitya-Sundar---About-Me/static/media/lukas-blazek-EWDvHNNfUmQ-unsplash.d395ca213a09839da66d.jpg",
+    "static/media/A.I_Hand.jpg": "/Adhitya-Sundar---About-Me/static/media/A.I_Hand.04f65620805223b2bdf3.jpg",
+    "static/media/Tab-2-Ph-2.jpg": "/Adhitya-Sundar---About-Me/static/media/Tab-2-Ph-2.edef9a9c79205d3b38b7.jpg",
+    "static/media/Tree_in_night.jpg": "/Adhitya-Sundar---About-Me/static/media/Tree_in_night.622e15e9f0b5ab813c06.jpg",
+    "static/media/yuriy-kovalev-nN1HSDtKdlw-unsplash.jpg": "/Adhitya-Sundar---About-Me/static/media/yuriy-kovalev-nN1HSDtKdlw-unsplash.0acaa83768131db939a2.jpg",
+    "static/media/diego-ph-5LOhydOtTKU-unsplash.jpg": "/Adhitya-Sundar---About-Me/static/media/diego-ph-5LOhydOtTKU-unsplash.a0b6829047851d5eeddc.jpg",
+    "static/media/Tab-2-Ph-3.jpg": "/Adhitya-Sundar---About-Me/static/media/Tab-2-Ph-3.44f64c067a75e6257421.jpg",
+    "static/media/Udavam_Karangal.jpg": "/Adhitya-Sundar---About-Me/static/media/Udavam_Karangal.62735e18bf25e3dfe27a.jpg",
+    "static/media/Tab-2-Ph-4.jpg": "/Adhitya-Sundar---About-Me/static/media/Tab-2-Ph-4.78686aa3ea1a9e5d6a83.jpg",
+    "static/media/logo.svg": "/Adhitya-Sundar---About-Me/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Adhitya-Sundar---About-Me/index.html",
+    "main.0224b40f.css.map": "/Adhitya-Sundar---About-Me/static/css/main.0224b40f.css.map",
+    "main.21e5c69f.js.map": "/Adhitya-Sundar---About-Me/static/js/main.21e5c69f.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Adhitya-Sundar---About-Me/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdd53e4c.css",
-    "static/js/main.e56e0eef.js"
+    "static/css/main.0224b40f.css",
+    "static/js/main.21e5c69f.js"
   ]
 }
