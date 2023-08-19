@@ -3,7 +3,7 @@ import './App.css';
 import Home from './Pages/Home';
 import Skillset from './Pages/Skillset';                                                                 
 import Cadetlife from './Pages/Cadetlife';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {HashRouter as Router, Routes, Route} from 'react-router-dom';
 import Navbar from './Components/Navbar';
 // import Footer from './Components/Footer';
 import FTC from './Pages/FTC';
@@ -19,7 +19,7 @@ import Achievements from './Pages/Achievements';
     return (
       <div className="App">
 
-      <Router basename= "/Adhitya-Sundar---About-Me">
+      <Router>
         
       <div style={{zIndex:1000}}>
       < Navbar/>
@@ -27,7 +27,7 @@ import Achievements from './Pages/Achievements';
        
 
       <Routes>
-        <Route exact path = '/Adhitya-Sundar---About-Me' element={<Home />} />
+        <Route path = '/' element={<Home />} />
         <Route path = '/home' element={<Home />} />
         <Route path = '/skillset' element={<Skillset />} /> 
         <Route path = '/cadetlife' element={<Cadetlife />} /> 
