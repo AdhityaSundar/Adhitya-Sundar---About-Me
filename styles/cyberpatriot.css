@@ -1,0 +1,43 @@
+.cyberpatriot-img img{
+    width: 100%;
+}
+.cyberpatriot-div{
+    width: 90%;
+    margin: 30px auto;
+    padding: 17px 50px;
+    box-shadow: 0px 0px 4px 1px lightgray;
+    background-color: rgb(238, 231, 231);
+}
+.cyberpatriot-div p{
+    font-size: 1.15rem;
+    line-height: 1.8;
+    padding: 11px 20px;
+    text-align: left;
+    word-spacing: 4px;
+    margin: 0;
+    text-indent: 35px;
+}
+@media screen and (max-width:1023px) {
+    main{
+        padding-top: 0;
+    }
+    .cyberpatriot-img{
+        height: 13%;
+    }
+.cyberpatriot-img img{
+    width: 100%;
+    height: 100%;
+}
+.cyberpatriot-div{
+    width: 92%;
+    margin: 10px auto;
+    padding: 15px;
+    }
+    .cyberpatriot-div p{
+        padding: 0;
+        font-size: 0.85rem;
+        line-height: 1.6;
+        word-spacing: 3px;
+        text-align: inherit;
+    }
+}

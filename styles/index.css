@@ -1,0 +1,212 @@
+.banner-section{
+    width: 85%;
+    margin: 40px auto 0;
+    border-radius: 15px;
+    box-shadow: 5px 0 15px rgba(0,0,0,0.2);
+}
+.first-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-photo-container{
+    vertical-align: middle;
+    width: 40%;
+}
+.image-wrapper{
+    border-radius: 50%;
+    margin: 0 auto; 
+    text-align: right;
+}
+.image-wrapper img{
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #ecebeb;
+    width: 196px;
+    vertical-align: middle;
+}
+.banner-content{
+    padding: 0 20px;
+    width: 58%;
+}
+.banner-content h1{
+    font-size: 3rem;
+}
+h1 .name{
+    color: #0075f6;
+    font-size: inherit;
+}
+.banner-section p{
+font-size: 1.5rem;
+line-height: 1.5;
+margin: 0 auto;
+width: 80%;
+text-align: center;
+padding: 15px 0;
+font-family: 'Noto Sans', sans-serif;
+}
+.small-separator{
+    height: 20px;
+    width: 40%;
+    margin: 0 auto;
+    border-bottom:1px solid #eee;
+}
+.who-iam-section{
+    margin: 100px auto;
+    display: flex;
+    background-color: #0075f6;
+}
+.who-iam p{
+    font-family: "poppins", Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    padding-bottom: 0;
+    text-align: right;
+}
+
+.who-iam h2{
+    font-size: 3rem;
+    font-family: "poppins", Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #fff;
+    margin: 0;
+}
+.who-iam{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+    padding: 10px 30px;
+}
+.who-iam-image{
+    width: 50%;
+    background-image: url('../images/about-me.png');
+    background-size: cover;
+}
+
+.skills-section{
+    width: 85%;
+    margin: 0 auto;
+}
+.skills-section .skills h2{
+    font-size: 3rem;
+text-align: center;
+}
+.material-symbols-outlined{
+    font-size: 3.4rem !important;
+    padding-right: 15px;
+    vertical-align: middle;
+    color: dimgray;
+}
+.display_settings{
+    color: #ecebeb !important;
+}
+.skills-section .skills ul li{
+    font-size: 1.2rem;
+    background-color: #b7f6f8fa;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px 0;
+    list-style-type: none;
+    padding-left: 5px;
+    box-shadow: 1px 1px 1px 1px #7dd3d6fa;
+}
+.skills li:hover{
+    box-shadow: 3px 3px 2px 2px #1bd0d6fa !important;
+
+}
+.circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #d1cdcd;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+.who-iam-mobile-section{
+    display: none;
+}
+@media screen and (max-width:1023px) {
+    main{
+        padding-top: 1px;
+    }
+    .who-iam-section{
+        display: none;
+    }
+    .first-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .profile-photo-container{
+        width: 100%;
+        padding: 6% 36%;
+    }
+        .image-wrapper{
+        width: 100%;
+        text-align: center;
+    }
+        .image-wrapper img{
+          width: 175px;
+    }
+    .banner-content{
+        width:80%;
+    }
+    .banner-content h1{
+        font-size: 1.05rem;
+        width: 100%;
+        text-align: center;
+    } 
+    .small-separator + p{
+        font-size: 0.95rem;
+        text-align: left;
+    }
+.who-iam-mobile-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px auto;
+    }
+.who-iam-mobile-image{
+    width:300px;
+    height: 250px;
+    margin: 0 auto;
+    }
+.who-iam-mobile-image > img{
+    width: 100%;
+    height: 100%;
+    
+   }
+   .who-iam-mobile-div{
+    text-align: left;
+    background-color: #0075f6;
+    color: white;
+    margin:  30px 40px;
+    padding: 0 35px;
+   }
+   .who-iam-mobile-div > h2{
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+   }
+   .who-iam-mobile-div p{
+    font-size: 0.95rem;
+   }
+   .skills-section .skills h2{
+    font-size: 1.25rem;
+   }
+   .skills-section .skills ul li{
+    font-size: 0.95rem;
+    padding: 5px;
+    text-align: inherit;
+   }
+}
+@media screen and (max-width:767px) {
+    .profile-photo-container{
+        width: 100%;
+        padding: 5% 18%;
+    }
+}

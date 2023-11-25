@@ -1,0 +1,133 @@
+.ftc-div-a{
+    width: 100%;
+    height: 500px;
+}
+.ftc-div-a img{
+    width: 100%;
+    height: 100%;
+}
+.main-ftc{
+    background-color: rgb(249, 255, 239);
+    box-shadow:0px 0px 2px 1px rgb(175, 175, 173,0.5);
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+}
+.flex-fct-a{
+    display: flex;
+    flex-direction: row;
+}
+.ftc-div-b{
+    background-image: url("../images/FTC-Ph-1.jpg");
+    margin: 0;
+    width: 45%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ftc-div-c{
+    width: 45%;
+    margin:auto;
+    padding: 50px 50px;
+    text-align: center;
+    box-shadow:20px 20px 0 0px rgb(182, 202, 255);
+    background-color: rgb(233, 242, 248);
+    line-height: 1.8;
+    word-spacing: 3px;
+    height: 300px;
+}
+.flex-fct-b{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    padding-top:40px ;
+    margin: 0 auto;
+}
+.flex-fct-b-div{
+width: 45%;
+padding: 45px 50px;
+text-align: center;
+box-shadow:20px 20px 0 0px rgb(182, 202, 255);
+background-color: rgb(233, 242, 248);
+line-height: 1.8;
+word-spacing: 3px;
+height: 390px;
+margin-top: 50px;
+}
+.flex-fct-b-img{
+    width: 45%;
+    height: 500px;
+    background-image: url("../images/FTC-ph-3.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.div-footer{
+    margin-top: 0;
+}
+@media screen and (max-width:1023px) {
+    main{
+        padding-top: 0;
+    }
+    .ftc-div-a{
+        width: 100%;
+        height: 30%;
+    }
+    .ftc-div-a img{
+        width: 100%;
+        height: 100%;
+    }
+    .main-ftc{
+        width: 94%;
+        margin: 0 auto;
+        width: 100%;
+        padding: 15px;
+    }
+    .flex-fct-a{
+        display: flex;
+        flex-direction: column;
+        width: 94%;
+        margin: 0 auto;
+    }
+    .ftc-div-b{
+        width: 100%;
+        height: 330px;
+        background-position: center center;
+        background-size: contain;
+    }
+    .ftc-div-c{
+        width: 100%;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        word-spacing: 2px;
+        padding: 25px;
+        margin: 20px 0;
+        height: 30%;
+        text-align: -webkit-auto;
+    }
+    .flex-fct-b {
+        width: 94%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .flex-fct-b-img{
+        width:100%;
+        background-size: contain;
+        background-position: center;
+    }
+    .flex-fct-b-div{
+        width: 100%;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    word-spacing: 2px;
+    height: 34%;
+    text-align: -webkit-auto;
+    margin-bottom: 25px;
+    padding: 25px;
+    }
+}
+@media screen and (max-width:425px) {
+    .ftc-div-b{
+        height: 215px;
+    }
+}

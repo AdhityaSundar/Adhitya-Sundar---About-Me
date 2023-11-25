@@ -1,0 +1,361 @@
+main {
+    padding: 0;
+}
+
+.image_a {
+    width: 100%;
+    height: auto;
+}
+
+.spacer {
+    height: 1px;
+}
+
+.line {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    margin: 40px 0;
+}
+
+.content-section,
+.content-section-phase-1,
+.content-section-phase-2 {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.div-cadetlife-above {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #dae2e2;
+}
+
+.div-cadetlife {
+    width: 10%;
+    min-width: max-content;
+    padding: 10px 20px;
+    border-right: 1px solid #b8fef9;
+    background-color: #b8fef9;
+}
+
+.div-cadetlife h1 {
+    line-height: 1.5;
+    padding: 5px 0;
+    vertical-align: middle;
+}
+
+.flex-section-a h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+}
+
+.div-cadetlife+div {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    padding: 10px 20px;
+}
+
+.div-above-h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.div-h3 {
+    width: 31%;
+    height: 170px;
+    background-color: #483d8b;
+    box-shadow: 0 0 14px 0px #ccc;
+}
+
+.content-section-phase-1,
+.content-section-phase-2 {
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    padding-top: 0;
+    box-shadow: 0 0 4px 0px #ccc;
+    border-radius: 20px 20px 1px 1px;
+}
+
+.above-h2-phase {
+    width: max-content;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 1rem;
+    font-family: "poppins", Arial, Helvetica, sans-serif;
+    background-color: rgb(46, 45, 45);
+    color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+    line-height: 1.6;
+    box-shadow: 1px 1px 1px 0px rgb(66, 65, 65);
+}
+
+.div-h3 h3,
+.div-below-phase-1 h3 {
+    text-align: center;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    color: white;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 16px;
+}
+
+.div-h3 {
+    text-align: center;
+    line-height: 1.6;
+    color: white;
+    padding: 0 15px;
+}
+
+.div-phase-1,
+.div-phase-2 {
+    background-color: yellow;
+    border-radius: 20px 20px 1px 1px;
+    padding: 5px 10px;
+}
+.div-phase-2{
+    background-color: springgreen;
+}
+.div-phase-1 p,
+.div-phase-2 p {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.div-phase-1 h2,
+.div-phase-2 h2 {
+    font-size: 1.75rem;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.div-below-phase-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px 10px 10px;
+}
+
+.div-below-phase-1>div {
+    width: 23%;
+    height: 190px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 10px;
+    background-color: #483d8b;
+    color: white;
+    line-height: 1.6;
+}
+
+.div-ol {
+    padding: 20px 0 20px 30px;
+}
+
+.div-phase-2-fitness {
+    display: flex;
+    padding: 40px;
+    background-color: rgb(247, 247, 243);
+}
+
+.div-fitness {
+    width: 100%;
+    height: 490px;
+    background-image: url("../images/Tab-2-Ph-1.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.div-phase-2-fitness h3 {
+    font-size: 1.75rem;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 100px;
+}
+.div-phase-2-fitness p{
+    text-align: center;
+    padding: 0 70px;
+    line-height: 1.8;
+    font-size: 1.15rem;
+}
+.rocketry-div-a{
+    width: 100%;
+    height: 30px;
+}
+.rocketry-div-b{
+    background-image: url("../images/cadet-life.png");
+    width: 100%;
+    height: 500px;
+    margin: 0;
+}
+.rocketry-div-c{
+    background-image: url("../images/Tab-2-Ph-3.JPG");
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.rocketry-div-c div{
+    width: 45%;
+    height: 500px;
+    background-color: #c0bdbe;
+}
+.rocketry-div-c h3{
+    text-align: center;
+ padding: 100px 40px 0 40px;
+ font-size: 1.5rem;
+ font-family:  "poppins", Arial, Helvetica, sans-serif;
+ letter-spacing: 1px;
+}
+.rocketry-div-c p{
+    text-align: center;
+    padding: 0 20px;
+    font-family:  "poppins", Arial, Helvetica, sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.8;
+}
+.rocketry-mobile-display{
+    display: none;
+}
+@media screen and (max-width:1023px) {
+    .div-cadetlife-above{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-cadetlife{
+        width: 100%;
+    }
+    .div-cadetlife > h1{
+        text-align: center;
+        margin: 0;
+    }
+    .div-cadetlife + div{
+        font-size: 1rem;
+    }
+    .div-above-h3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div-h3{
+        width: 100%;
+        margin: 15px;
+    }
+    .div-h3 > h3{
+        font-size: 1.15rem;
+    }
+    .div-phase-1 h2{
+        font-size: 1rem;
+        padding-bottom: 5px;
+    }
+    .div-phase-1 p{
+        font-size: 0.95rem;
+    }
+    .title{
+        font-size: 0.95rem !important;
+        padding-bottom: 3px;
+    }
+    .text{
+        font-size: 0.75rem;
+    }
+    .div-ol{
+        padding: 20px 0 20px 0px;
+    }
+    .olcards li::before{
+        padding-inline: 0 !important;
+    }
+    .olcards li .content{
+        gap: 0 0 !important;
+        --inlinePadding: 0.05em !important;
+    }
+    .div-phase-2 h2{
+        font-size: 0.95rem;
+        padding-bottom: 5px;
+    }
+    .div-phase-2 p{
+        font-size: 0.85rem;
+    }
+    .div-phase-2-fitness{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .div-fitness{
+        width: 250px;
+        height: 350px;
+        align-self: center;
+    }
+    .div-phase-2-fitness h3{
+        font-size: 1.15rem;
+        text-align: center;
+        margin: 15px 0;
+    } 
+    .div-phase-2-fitness p{
+        font-size: 0.95rem;
+        padding: 0;
+        text-align: left;
+        line-height: 1.6;
+    }
+    .rocketry-div-a{
+        height: 15px;
+        width: 100%;
+    }
+    .rocketry-div-b{
+        background-image: url(../images/cadet-life-mobile.png);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .rocketry-div-c{
+        display: none;
+    }
+    .rocketry-mobile-display{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .rocketry-mobile-img{
+        width: 100%;
+        height: 310px;
+    }
+    .rocketry-mobile-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .rocketry-mobile-display h3{
+        padding: 0 10px;
+        text-align: center;
+    }
+    .rocketry-mobile-img + div{
+        padding: 0 15px 20px 15px;
+        font-size: 0.95rem;
+        text-align: inherit;
+    }
+ }
+@media screen and (max-width:430px) {
+    .rocketry-div-b {
+        background-image: url(../images/cadet-life-mobile.png);
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+.rocketry-mobile-img{
+    width: 100%;
+    height: 160px;
+}
+.rocketry-mobile-img img{
+    width: 100%;
+    height: 100%;
+}
+}
