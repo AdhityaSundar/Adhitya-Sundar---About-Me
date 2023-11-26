@@ -45,14 +45,14 @@
     margin: 0 auto;
 }
 .flex-fct-b-div{
-width: 45%;
+/* width: 45%; */
 padding: 45px 50px;
 text-align: center;
 box-shadow:20px 20px 0 0px rgb(182, 202, 255);
 background-color: rgb(233, 242, 248);
 line-height: 1.8;
 word-spacing: 3px;
-height: 390px;
+/* height: 390px; */
 margin-top: 50px;
 }
 .flex-fct-b-img{
